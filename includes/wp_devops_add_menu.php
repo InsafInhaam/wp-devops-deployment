@@ -44,4 +44,13 @@ function wp_devops_add_menu()
         'wp-devops-deployment',
         'wp_devops_deployment_page'
     );
+
+    add_submenu_page(
+        'wp-devops', // Parent slug (replace with your main menu slug)
+        'Backup & Revert',    // Page title
+        'Backup & Revert',    // Menu title
+        'manage_options',     // Capability
+        'wp-devops-backup-revert', // Menu slug
+        'wp_devops_backup_revert_page' // Callback function
+    );
 }

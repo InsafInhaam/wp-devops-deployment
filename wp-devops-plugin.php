@@ -47,3 +47,7 @@ require_once WP_DEVOPS_PLUGIN_DIR . 'includes/wp_devops_git_sync_page.php';
 // Include WP DevOps Deployment Page.
 require_once WP_DEVOPS_PLUGIN_DIR . 'includes/wp_devops_deployment_page.php';
 
+
+// Include WP DevOps Backup Revert Page.
+require_once WP_DEVOPS_PLUGIN_DIR . 'includes/wp_devops_backup_revert_page.php';
+
