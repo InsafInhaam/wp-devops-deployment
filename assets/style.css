@@ -1,0 +1,172 @@
+/* General container styling */
+.devops-plugin-wrap {
+  font-family: Arial, sans-serif;
+  /* background-color: #f9f9f9; */
+  padding: 0 20px 0 0;
+  border-radius: 8px;
+}
+
+/* Heading styles */
+.devops-plugin-wrap h1 {
+  font-size: 2.5em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.devops-plugin-wrap h2,
+h3 {
+  font-size: 1.8em;
+  color: #2270B1;
+  margin-top: 20px;
+}
+
+/* Form styling */
+.devops-plugin-wrap form {
+  margin-bottom: 20px;
+}
+
+.devops-plugin-wrap input[type="text"],
+select {
+  width: 300px;
+  /* padding: 10px; */
+  /* margin-top: 5px; */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+.devops-plugin-wrap input[type="text"]:focus,
+select:focus {
+  border-color: #2270B1;
+  outline: none;
+}
+
+.devops-plugin-wrap button[type="submit"] {
+  /* background-color: #0056b3; */
+  color: white;
+  border: none;
+  /* padding: 10px 20px; */
+  cursor: pointer;
+  font-size: 1em;
+  border-radius: 4px;
+  /* margin-top: 10px; */
+  margin-left: 5px;
+}
+
+.devops-plugin-wrap button[type="submit"]:hover {
+  /* background-color: #003b73; */
+}
+
+/* Repository/branch select box styling */
+.devops-plugin-wrap select {
+  display: inline-block;
+  width: auto;
+}
+
+/* File listing */
+.devops-plugin-wrap ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.devops-plugin-wrap li {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin-bottom: 8px;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+.devops-plugin-wrap li a {
+  text-decoration: none;
+  color: #2270B1;
+}
+
+.devops-plugin-wrap li a:hover {
+  color: #003b73;
+}
+
+/* Status messages */
+.devops-plugin-wrap p {
+  font-size: 1.2em;
+}
+
+.devops-plugin-wrap p[style="color: green;"] {
+  color: green;
+}
+
+.devops-plugin-wrap p[style="color: red;"] {
+  color: red;
+}
+
+/* Deployment section */
+.devops-plugin-wrap hr {
+  border: 1px solid #ccc;
+  margin-top: 40px;
+}
+
+.devops-plugin-wrap button[type="submit"][name="deploy_action"] {
+  background-color: #28a745;
+  color: white;
+  padding: 12px 25px;
+  font-size: 1.2em;
+}
+
+.devops-plugin-wrap button[type="submit"][name="deploy_action"]:hover {
+  background-color: #218838;
+}
+
+
+/* wp devops file manager */
+
+.wp-devops-file-tree ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.wp-devops-file-tree li {
+  margin: 5px 0;
+}
+
+.wp-devops-file-tree strong {
+  cursor: pointer;
+}
+
+.wp-devops-file-tree a {
+  text-decoration: none;
+  color: #0073aa;
+}
+
+.wp-devops-file-tree a:hover {
+  text-decoration: underline;
+}
+
+.wp-devops-file-editor {
+  max-width: 100%;
+  overflow-x: auto;
+  margin-top: 20px;
+}
+
+.wp-devops-file-editor textarea {
+  width: 100%;
+  max-width: 100%;
+  min-height: 400px;
+  font-family: monospace;
+}
+
+.CodeMirror {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  min-height: 400px;
+  height: auto;
+}
+
+.toggle-icon {
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+strong.toggle-dir-text {
+  font-size: 15px !important;
+}
